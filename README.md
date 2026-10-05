@@ -44,6 +44,12 @@ server {
 EOF
 sudo nginx -t && sudo systemctl enable --now nginx && sudo systemctl reload nginx
 ```
+<h2>quick check command</h2>
+
+```bash
+aria2c -x 16 -s 16 -k 1M "url"
+```
+
 
 <h2>Firewall</h2>
 
